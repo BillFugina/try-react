@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "baseUrl": "./src",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "rootDirs": [
+      "src",
+      "styles"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
